@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 const Banner = () => {
   return (
-    <div className="w- mx-auto h-screen">
+    <div className="w- mx-auto h-full">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         navigation
