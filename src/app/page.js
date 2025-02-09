@@ -1,5 +1,6 @@
 import AboutSaction from "@/components/about section/AboutSaction";
 import Carousel from "@/components/carousel/Carousel";
+import OurService from "@/components/ourService/OurService";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
     <Carousel/>
     <AboutSaction/>
+    <OurService/>
     </div>
   )
 }
