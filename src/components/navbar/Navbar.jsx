@@ -26,7 +26,7 @@ const Navbar = () => {
           <Link href="/blog" className="hover:text-gray-300">Blog</Link>
           <Link href="/contact" className="hover:text-gray-300">Contact</Link>
         </div>
-        <div className='hidden md:block flex gap-4 items-center'>
+        <div className='hidden md:flex gap-4 items-center'>
           <IoBagOutline size={24} />
           <FaSearch size={24} color="gray" />
           <button className='btn outline outline-[#FF3811] text-[#FF3811] rounded-md py-2 px-4'>
